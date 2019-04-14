@@ -1,3 +1,7 @@
+#1021. Remove Outermost Parentheses
+#Return S after removing the outermost parentheses of every primitive string in the primitive decomposition of S.
+
+#When ( add 1 to balance, when ) minus 1 from balance, when balance = 0, remove the outmost ().
 class Solution:
     def removeOuterParentheses(self, S: str) -> str:
         balance = 0
