@@ -31,17 +31,8 @@ public:
         if (root->val>= L && root->val<= R){
             a = root->val;
         }
-        
-        
-        return a+recursive(root->left,L,R)+
-        recursive(root->right,L,R);
-
-        // else if (root ->val < L){
-        //     return recursive(root->right, L, R);
-        // }
-        // else if(root -> val > R) {
-        //     return recursive(root->left, L, R);
-        // }
+ 
+        return a+recursive(root->left,L,R)+recursive(root->right,L,R);
     } 
     
 };
