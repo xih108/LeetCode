@@ -1,7 +1,7 @@
-#226. Invert Binary Tree
-#Invert a binary tree.
+// 226. Invert Binary Tree
+// Invert a binary tree.
 
-#Use recursion to reverse the binary tree by assign its left to right, right to left for each tree node.
+// Use recursion to reverse the binary tree by assign its left to right, right to left for each tree node.
 
 /**
  * Definition for a binary tree node.
