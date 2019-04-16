@@ -1,5 +1,12 @@
 /**
  * Definition for a binary tree node.
+#938. Range Sum of BST
+#Given the root node of a binary search tree, return the sum of values of all nodes with value between L and R (inclusive).
+#The binary search tree is guaranteed to have unique values.
+
+#Use recursion to visit all the nodes and add it if it satisfies the condition.
+ 
+
  * struct TreeNode {
  *     int val;
  *     TreeNode *left;
@@ -24,17 +31,8 @@ public:
         if (root->val>= L && root->val<= R){
             a = root->val;
         }
-        
-        
-        return a+recursive(root->left,L,R)+
-        recursive(root->right,L,R);
-
-        // else if (root ->val < L){
-        //     return recursive(root->right, L, R);
-        // }
-        // else if(root -> val > R) {
-        //     return recursive(root->left, L, R);
-        // }
+ 
+        return a+recursive(root->left,L,R)+recursive(root->right,L,R);
     } 
     
 };
