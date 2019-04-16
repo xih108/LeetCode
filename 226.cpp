@@ -1,9 +1,9 @@
-#260. Single Number III
-#Given an array of numbers nums, in which exactly two elements appear only once and all the other elements appear exactly twice. Find the two elements that appear only once.
+#226. Invert Binary Tree
+#Invert a binary tree.
 
-#Every time put a number into the set if its first appearence, otherwise remove it from the set. At last, return the list.
+#Use recursion to reverse the binary tree by assign its left to right, right to left for each tree node.
 
-    /**
+/**
  * Definition for a binary tree node.
  * struct TreeNode {
  *     int val;
