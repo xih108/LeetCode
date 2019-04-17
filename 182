@@ -1,0 +1,3 @@
+# Write your MySQL query statement below
+Select DISTINCT a.Email from Person a,Person b 
+Where (a.Id != b.Id) and (a.Email = b.Email)
