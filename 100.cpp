@@ -1,3 +1,9 @@
+// 100. Same Tree
+// Given two binary trees, write a function to check if they are the same or not.
+// Two binary trees are considered the same if they are structurally identical and the nodes have the same value.
+
+// User recursion to travel the tree to see whether each node are identical
+
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
