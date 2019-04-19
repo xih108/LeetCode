@@ -1,3 +1,10 @@
+// 230.Given a binary search tree, write a function kthSmallest to find the kth smallest element in it.
+// Note: 
+// You may assume k is always valid, 1 ≤ k ≤ BST's total elements.
+
+// Traverse in inorder until the vector has size k ,then return the element at index k-1.
+
+
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
