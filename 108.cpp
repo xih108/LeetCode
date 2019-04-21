@@ -1,3 +1,8 @@
+// 108. Convert Sorted Array to Binary Search Tree
+// Given an array where elements are sorted in ascending order, convert it to a height balanced BST.
+
+// Mimic binary search, use recursion to build the binary tree.
+
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
