@@ -1,3 +1,11 @@
+// 173. Binary Search Tree Iterator
+// Implement an iterator over a binary search tree (BST). Your iterator will be initialized with the root node of a BST.
+
+// Using stack to implement iterator. First go to the leftmost node, then everytime pop a node, if that node has a right node, 
+// then push until the leftmost one. Otherwise, do nothing.
+
+
+
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
