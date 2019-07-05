@@ -1,3 +1,16 @@
+// 225. Implement Stack using Queues
+// Implement the following operations of a stack using queues.
+
+// push(x) -- Push element x onto stack.
+// pop() -- Removes the element on top of the stack.
+// top() -- Get the top element.
+// empty() -- Return whether the stack is empty.
+
+//use topv to represent the top of the stack ,it would always be the last element that push back at the queue.
+//when pop, pop front and push at the back for que.size()-1 times, at the same time update topv.
+
+
+
 class MyStack {
 public:
     /** Initialize your data structure here. */
